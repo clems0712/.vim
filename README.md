@@ -1,12 +1,13 @@
 # .vim directory and .vimrc :
 
 config vim personnelle
+
 call plug#begin('~/.vim/plugged')
 
 " Make sure you use single quotes
 " Plugins will be downloaded under the specified directory.
 " call plug#begin('~/.vim/plugged')
-" "
+
 " " " Declare the list of plugins.
 Plug 'tpope/vim-sensible'
 Plug 'junegunn/seoul256.vim'
